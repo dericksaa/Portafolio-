@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    background-color: black;
+    display: grid;
+    gap: 2rem;
+    justify-content:center;
+}
+
+.contact h2 {
+    color: #E7A21E;
+    text-align: center;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 40px;
+}
+
+.contact div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

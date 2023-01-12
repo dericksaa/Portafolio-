@@ -8,12 +8,15 @@
     font-family: 'Lexend Zetta', sans-serif;
     color: #E7A21E;
     font-size: 40px;
+    padding-bottom: 2rem;
 }
 
 .about{
     display: grid;
     justify-items: center;
+    align-content: center;
     background-color: black;
+    height: calc(100vh - 200px);
 }
 
 .text_and_image{
