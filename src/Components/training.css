@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.training{
+    background-color: black;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+.training h2{
+    color: #E7A21E;
+    font-size: 40px;
+    font-family: 'Lexend Zetta', sans-serif;
+    padding-bottom: 5rem;
+
+}
+
+.cardsTraining{
+    display: grid;
+    gap: 2rem;
+}
+
+.training h3{
+    color:white;
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 18px;
+}
+
+.trainingCont{
+    display: flex;
+    padding: 2rem;
+    border-radius: 2rem;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.trainCont1{
+    background: rgb(165,130,38);
+background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(38,77,92,0.19) 100%);
+}
+
+.trainCont2{
+    background: rgb(165,130,38);
+background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(85,43,203,0.25) 100%);
+}

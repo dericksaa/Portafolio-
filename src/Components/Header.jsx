@@ -1,8 +1,9 @@
 import React from 'react'
-import logoSaa from '../Images/logoSaa.png'
 import '../Components/header.css'
+const { useState, useEffect } = React;
 
 const Header = () => {
+
   return (
     <div className='header'>
         <div className='logoso'></div>

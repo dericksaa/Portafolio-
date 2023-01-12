@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SkillsSection{
+    display: grid;
+    justify-items: center;
+    background-color: black;
+}
+
+.SkillsSection h2{
+    color: #E7A21E;
+    font-size: 40px;
+    font-family: 'Lexend Zetta', sans-serif;
+
+}
+
+.skills{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(5,1fr);
+    width: 50%;
+    gap: 2rem;
+}
+
+.logoSkill{
+    aspect-ratio: 1;
+}
+
+.skillsLogo1{
+    background-image: url(../Images/jslogo.png);
+    background-size: cover;
+    border-radius: 8px;
+}
+.skillsLogo2{
+    background-image: url(../Images/reactlogo.png);
+    background-size: cover;
+}
+.skillsLogo3{
+    background-image: url(../Images/htmlLogo.png);
+    background-size: cover;
+}
+.skillsLogo4{
+    background-image: url(../Images/logocss.png);
+    background-size: cover;
+}
+.skillsLogo5{
+    background-image: url(../Images/logogit.png);
+    background-size: cover;
+}
