@@ -9,7 +9,7 @@ const Home = (props) => {
       .sort(() => {
         return 0.5 - Math.random();
       })
-      .join("#._");
+      .join("");
   };
 
   const gen = () => {

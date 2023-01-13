@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Home text="Derick saa"/>
+      <Home text='Derick Saa'/>
       <About/>
       <Training/>
       <Skills/>

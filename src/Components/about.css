@@ -9,6 +9,7 @@
     color: #E7A21E;
     font-size: 40px;
     padding-bottom: 2rem;
+
 }
 
 .about{
@@ -37,4 +38,5 @@
     aspect-ratio: 1.289 ;
     background-size: cover;
     width: 40%;
+    opacity: 0;
 }

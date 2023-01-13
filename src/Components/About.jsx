@@ -1,8 +1,40 @@
-import React from 'react'
-import fotoderick from '../Images/fotoderick.png'
+import React, {useEffect}from 'react'
+import {gsap} from 'gsap'
 import '../Components/about.css'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+
 
 const About = () => {
+
+  // const cambio =()=>{
+  //   const foto = document.querySelector('.imagenAbout')
+  //   gsap.to(foto,{opacity:1})
+  // }
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
+    gsap.to(".imagenAbout", {
+      opacity:1,
+      duration:2,
+      scrollTrigger:{
+        trigger:'.imagenAbout'
+      }
+
+    });
+  }, []);
+
+
+  // const salida =({currentTarget})=>{
+  //   gsap.to(currentTarget,{opacity:1})
+  // }
+
+
+  // useEffect(() => {
+  //   const foto = document.querySelector('.imagenAbout')
+  //   gsap.to(foto,{opacity:0})
+  // }, [])
+  
+
   return (
     <div className='about'>
         <h2>about me</h2>
@@ -14,7 +46,8 @@ const About = () => {
         I know, are two of the things that I am most passionate
         about.</p>
         <div className='imagenAbout'>
-
+          {/* onMouseEnter={cambio} */}
+          {/* onMouseLeave={salida}> */}
         </div>
         </div>
         
