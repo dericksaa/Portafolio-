@@ -21,6 +21,12 @@
     min-height: 63px;
 }
 
+.menuButtom{
+    display: none;
+    background-color: black;
+    border: none;
+}
+
 .nav{
     display: flex;
     gap: 30px;
@@ -32,4 +38,17 @@ a{
     font-family: 'Lexend', sans-serif;
     font-size: 24px;
 
+}
+
+@media screen and (max-width:700px){
+    .menuButtom{
+        display: flex;
+    }
+    .nav{
+        display: none;
+        flex-direction: column;
+    }
+    .nav.isActive{
+        display: flex;
+    }
 }

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.projects{
+    background-color:#0f0d0e;
+    display: grid;
+    justify-items: center;
+    font-family: 'Lexend Zetta', sans-serif;
+}
+
+.cardProject{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    width: 60%;
+}
+
+
+
+.projects h2 {
+    color: #E7A21E;
+    font-size: 40px;
+}
+
+.projects h3,p{
+    color: white;
+}
+
+.projects h3{
+    font-size: 24px;
+    padding-bottom: 1rem;
+}
+.projects p{
+    font-size: 20px;
+    padding-bottom: 1rem;
+
+}
+
+.cardProject img{
+    width: 100%;
+}
+
+.technologies img{
+    width: 60px;
+    margin-right: 1rem;
+}

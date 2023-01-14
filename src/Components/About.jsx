@@ -15,11 +15,10 @@ const About = () => {
     gsap.registerPlugin(ScrollTrigger)
     gsap.to(".imagenAbout", {
       opacity:1,
-      duration:2,
+      duration:3,
       scrollTrigger:{
         trigger:'.imagenAbout'
       }
-
     });
   }, []);
 
