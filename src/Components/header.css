@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 0.3% 2%;
+    padding: 0.3% 3%;
     min-height: 70px;
 }
 
@@ -18,7 +18,7 @@
     aspect-ratio: 1;
     background-size: cover;
     width: 5%;
-    min-height: 63px;
+    min-width: 50px;
 }
 
 .menuButtom{
@@ -29,6 +29,7 @@
 
 .nav{
     display: flex;
+    justify-content: space-around;
     gap: 30px;
 }
 
@@ -41,6 +42,7 @@ a{
 }
 
 @media screen and (max-width:700px){
+
     .menuButtom{
         display: flex;
     }
@@ -50,5 +52,6 @@ a{
     }
     .nav.isActive{
         display: flex;
+        justify-content: center;
     }
 }
