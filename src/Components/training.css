@@ -53,6 +53,10 @@ background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(85,43,203,0.25) 
 
 @media screen and (max-width:800px){
 
+    .training{
+        padding: 30% 0px 30% 0 ;
+    }
+
     .training h2{
         font-size: 25px;
         padding-bottom: 10%;
