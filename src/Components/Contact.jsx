@@ -6,11 +6,11 @@ import github from '../Images/logogithub.png'
 
 const Contact = () => {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <h2>Contact me</h2>
         <div>
           <img src={Gmail} alt="" />
-          <a>dericksaa@gmai.com</a>
+          <a href='mailto:dericksaa@gmai.com'>dericksaa@gmai.com</a>
         </div>
         <div>
           <img src={linkedin} alt="" />

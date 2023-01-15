@@ -4,7 +4,7 @@ import '../Components/training.css'
 const Training = () => {
 
   return (
-    <div className='training'>
+    <div className='training' id='training'>
     <h2>training</h2>
     <div className='cardsTraining'>
         <div className='trainingCont trainCont1'>

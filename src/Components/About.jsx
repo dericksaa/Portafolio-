@@ -64,7 +64,7 @@ const About = () => {
   
 
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <h2>about me</h2>
         <div className='text_and_image Animation2'>
         <p>Hello World ! I'm Derick Saa, mechanical engineer 

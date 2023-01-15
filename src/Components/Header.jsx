@@ -18,11 +18,11 @@ const Header = () => {
           </svg>
           </button>
           <nav className={`nav ${menu?'isActive':''}`}>
-            <a href="">About</a>
-            <a href="">Training</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
+            <a href="#about">About</a>
+            <a href="#training">Training</a>
+            <a href="#skill">Skills</a>
+            <a href="#projex">Projects</a>
+            <a href="#contact">Contact</a>
           </nav>
         </div>
     </header>

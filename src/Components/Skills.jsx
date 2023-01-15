@@ -22,7 +22,7 @@ const Skills = () => {
   }
 
   return (
-    <div className='SkillsSection'>
+    <div className='SkillsSection' id='skill'>
     <h2>Skills</h2>
     <div className='skills'>
         <div className='logoSkill skillsLogo1'

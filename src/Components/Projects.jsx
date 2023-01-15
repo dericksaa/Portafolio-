@@ -48,7 +48,7 @@ const Projects = () => {
       }, []);
 
   return (
-    <div className='projects'>
+    <div className='projects' id='projex'>
         <h2>Projects</h2>
         <div className='cardProject'>
             <img className='AnimationImg' src={ModernStyle} alt="" />
