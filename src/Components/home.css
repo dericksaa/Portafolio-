@@ -18,7 +18,9 @@
     color: white;
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 40px;
+    cursor: pointer;
 }
+
 
 @media screen and (max-width:510px){
 

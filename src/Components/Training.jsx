@@ -2,6 +2,7 @@ import React from 'react'
 import '../Components/training.css'
 
 const Training = () => {
+
   return (
     <div className='training'>
     <h2>training</h2>

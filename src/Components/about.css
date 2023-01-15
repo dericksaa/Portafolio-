@@ -61,7 +61,7 @@
 
     .imagenAbout{
         width: 80%;
-        opacity: 0;
+        /* opacity: 1; */
     }
     
 }

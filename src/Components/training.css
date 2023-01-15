@@ -67,6 +67,7 @@ background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(85,43,203,0.25) 
 
     .training h3 {
         font-size: 14px;
+        text-align: center;
     }
     
 }
