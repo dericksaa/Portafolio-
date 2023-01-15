@@ -8,12 +8,14 @@
     display: grid;
     justify-items: center;
     background-color: black;
+    padding: 5% 0px 10% 0;
 }
 
 .SkillsSection h2{
     color: #E7A21E;
     font-size: 40px;
     font-family: 'Lexend Zetta', sans-serif;
+    padding-bottom: 5%;
 
 }
 
@@ -49,4 +51,27 @@
 .skillsLogo5{
     background-image: url(../Images/logogit.png);
     background-size: cover;
+}
+
+@media screen and (max-width:800px){
+    .SkillsSection h2{
+        font-size: 25px;
+        padding-bottom: 10%;
+    }
+
+    .skills{
+        width: 90%;
+    }
+
+    .SkillsSection{
+        padding: 10% 0px 15% 0;
+    }
+}
+
+@media screen and (max-width:425px){
+
+    .skills{
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+    }
 }

@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 .projects{
-    background-color:#0f0d0e;
+    background-color:black;
     display: grid;
     justify-items: center;
     font-family: 'Lexend Zetta', sans-serif;
+    padding: 5% 0 10% 0;
 }
 
 .cardProject{
@@ -15,6 +16,8 @@
     grid-template-columns: 60% 40%;
     align-items: center;
     width: 60%;
+    gap: 4rem;
+    padding-bottom: 5%;
 }
 
 
@@ -22,6 +25,7 @@
 .projects h2 {
     color: #E7A21E;
     font-size: 40px;
+    padding-bottom: 5%;
 }
 
 .projects h3,p{
@@ -46,3 +50,41 @@
     width: 60px;
     margin-right: 1rem;
 }
+
+@media screen and (max-width:800px){
+    .projects h2{
+        font-size: 25px;
+    }
+
+    .cardProject{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .projects h3{
+        font-size: 20px;
+    }
+    .projects p{
+        font-size: 15px;
+    }
+    .technologies img{
+        width: 40px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .projects h3{
+        font-size: 18px;
+    }
+    .projects p{
+        font-size: 13px;
+    }
+    .technologies img{
+        width: 30px;
+    }
+}
+

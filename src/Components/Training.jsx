@@ -14,7 +14,6 @@ const Training = () => {
             <h3>EDUCAMAS</h3>
             <h3>full stack web developer</h3>
         </div>
-        <div></div>
     </div>
     </div>
   )

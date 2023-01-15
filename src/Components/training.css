@@ -9,17 +9,19 @@
     display: grid;
     justify-items: center;
     width: 100%;
+    padding: 10% 0px 5% 0 ;
 }
 
 .training h2{
     color: #E7A21E;
     font-size: 40px;
     font-family: 'Lexend Zetta', sans-serif;
-    padding-bottom: 5rem;
+    padding-bottom: 5%;
 
 }
 
 .cardsTraining{
+    width: 90%;
     display: grid;
     gap: 2rem;
 }
@@ -37,7 +39,6 @@
     align-items: center;
     gap: 3rem;
     justify-content: space-between;
-    height: 4rem;
 }
 
 .trainCont1{
@@ -48,4 +49,24 @@ background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(38,77,92,0.19) 1
 .trainCont2{
     background: rgb(165,130,38);
 background: linear-gradient(180deg, rgba(165,130,38,1) 0%, rgba(85,43,203,0.25) 100%);
+}
+
+@media screen and (max-width:800px){
+
+    .training h2{
+        font-size: 25px;
+        padding-bottom: 10%;
+    }
+
+    .trainingCont{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+
+    .training h3 {
+        font-size: 14px;
+    }
+    
 }

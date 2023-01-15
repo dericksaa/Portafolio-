@@ -16,6 +16,7 @@ const About = () => {
     gsap.to(".imagenAbout", {
       opacity:1,
       duration:3,
+      delay:0.5,
       scrollTrigger:{
         trigger:'.imagenAbout'
       }

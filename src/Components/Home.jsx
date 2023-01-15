@@ -59,6 +59,7 @@ const Home = (props) => {
       <h1>{textArray[activeText]}</h1>
       <h1>Full stack </h1>
       <h1>Web Developer</h1>
+      <a href="">ok</a>
     </div>
   );
 };

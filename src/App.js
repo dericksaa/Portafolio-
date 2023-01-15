@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Training from './Components/Training';
+import './app.css'
 
 
 

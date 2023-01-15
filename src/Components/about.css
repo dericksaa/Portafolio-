@@ -13,11 +13,10 @@
 }
 
 .about{
-    display: grid;
+    display: grid;    
     justify-items: center;
     align-content: center;
     background-color: black;
-    height: calc(100vh - 200px);
 }
 
 .text_and_image{
@@ -40,3 +39,47 @@
     width: 40%;
     opacity: 0;
 }
+
+@media screen and (max-width:800px){
+
+    .about h2{
+        font-size: 25px;
+
+    }
+
+    .text_and_image{
+        display: flex;
+        gap: 2rem;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .text_and_image p{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .imagenAbout{
+        width: 80%;
+        opacity: 0;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .text_and_image p{
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .imagenAbout{
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .text_and_image p{
+        font-size: 13px;
+    }
+}
+

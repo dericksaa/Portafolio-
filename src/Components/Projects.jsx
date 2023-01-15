@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Components/projects.css'
 import sabujchga from '../Images/sabujcha.png'
-import ModernStyle from '../Images/modernstyle.png'
+import ModernStyle from '../Images/modernstyle1.png'
 import react from '../Images/reactlogo.png'
 import css from '../Images/logocss.png'
 
@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
 
         <div className='cardProject cardreverse'>
-            <img src={ModernStyle} alt="" />
+            <img src={sabujchga} alt="" />
             <div>
                 <h3>Modern Style</h3>
                 <p> A make up and skinkare store in line. 

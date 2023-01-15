@@ -14,8 +14,15 @@
     height: 100vh;
 }
 
-h1{
+.home h1{
     color: white;
     font-family: 'Lexend Zetta', sans-serif;
     font-size: 40px;
+}
+
+@media screen and (max-width:510px){
+
+    .home h1 {
+        font-size: 25px;
+    }
 }
