@@ -14,11 +14,11 @@ const Contact = () => {
         </div>
         <div>
           <img src={linkedin} alt="" />
-          <a href="">Derick Saa Ortega</a>
+          <a href="https://www.linkedin.com/in/derick-saa-ortega-7860ab15a/" target='_blank'>Derick Saa Ortega</a>
         </div>
         <div>
           <img src={github} alt="" />
-          <a href="">dericksaa</a>
+          <a href="https://github.com/dericksaa" target='_blank'>dericksaa</a>
         </div>
     </div>
   )
