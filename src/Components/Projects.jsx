@@ -22,7 +22,8 @@ const Projects = () => {
         duration:2.5,
         delay:1,
         scrollTrigger:{
-            trigger:'.projects'
+            trigger:'.projects',
+        toggleActions:'restart'
         }
         });
       }, []);
@@ -40,7 +41,8 @@ const Projects = () => {
           duration:2.5,
           delay:0.5,
           scrollTrigger:{
-            trigger:'.projects'
+            trigger:'.projects',
+        toggleActions:'restart'
           }
         });
       }, []);

@@ -24,7 +24,9 @@ const About = () => {
       duration:2,
       delay:0.5,
       scrollTrigger:{
-        trigger:'.Animation1'
+        trigger:'.about',
+        start:300,
+        toggleActions:'restart'
       }
     });
   }, []);
@@ -42,7 +44,9 @@ const About = () => {
       duration:2,
       delay:0.5,
       scrollTrigger:{
-        trigger:'.Animation2'
+        trigger:'.about',
+        start:300,
+        toggleActions:'restart'
       }
     });
   }, []);
