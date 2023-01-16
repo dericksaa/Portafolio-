@@ -51,9 +51,8 @@ const Projects = () => {
     <div className='projects' id='projex'>
         <h2>Projects</h2>
         <div className='cardProject'>
-            <img className='AnimationImg' src={ModernStyle} alt="" />
+          <a target='_blank' href="https://modern-style.vercel.app/"><img className='AnimationImg' src={ModernStyle} alt="" /></a>
             <div className='AnimationText'>
-                <h3>Modern Style</h3>
                 <p> A make up and skinkare store in line. 
                     To automate the sending of the product 
                     order to Whats app</p>
