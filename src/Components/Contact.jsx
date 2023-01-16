@@ -10,7 +10,7 @@ const Contact = () => {
         <h2>Contact me</h2>
         <div>
           <img src={Gmail} alt="" />
-          <a href='mailto:dericksaa@gmai.com'>dericksaa@gmai.com</a>
+          <a href='mailto:dericksaa@gmai.com'>dericksaa@gmail.com</a>
         </div>
         <div>
           <img src={linkedin} alt="" />

@@ -25,7 +25,7 @@ const About = () => {
       delay:0.5,
       scrollTrigger:{
         trigger:'.about',
-        start:300,
+        start:200,
         toggleActions:'restart'
       }
     });
@@ -45,7 +45,7 @@ const About = () => {
       delay:0.5,
       scrollTrigger:{
         trigger:'.about',
-        start:300,
+        start:200,
         toggleActions:'restart'
       }
     });
