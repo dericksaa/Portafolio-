@@ -8,10 +8,10 @@ const Contact = () => {
   return (
     <div className='contact' id='contact'>
         <h2>Contact me</h2>
-        <div>
+        {/* <div>
           <img src={Gmail} alt="" />
-          <a href='mailto:dericksaa@gmai.com'>dericksaa@gmail.com</a>
-        </div>
+          <a href='mailto:dericksaa@gmai.com'>deri***@gmail.com</a>
+        </div> */}
         <div>
           <img src={linkedin} alt="" />
           <a href="https://www.linkedin.com/in/derick-saa-ortega-7860ab15a/" target='_blank'>Derick Saa Ortega</a>
