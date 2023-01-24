@@ -39,7 +39,6 @@
 .projects p{
     font-size: 20px;
     padding-bottom: 1rem;
-
 }
 
 .cardProject img{
@@ -82,6 +81,13 @@
         width: 40px;
     }
 }
+
+/* @media screen and (min-width:1024px){
+    
+    .projects p{
+        width: 324.47px;
+    }
+} */
 
 @media screen and (max-width:425px){
     .projects h3{

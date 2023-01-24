@@ -2,10 +2,9 @@ import React, { useEffect } from 'react'
 import {gsap} from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
 import '../Components/projects.css'
-import sabujchga from '../Images/sabujcha.png'
-import ModernStyle from '../Images/modernstyle1.png'
-import react from '../Images/reactlogo.png'
-import css from '../Images/logocss.png'
+import ProjectCard from './ProjectCard'
+import {ProjectDat} from './ProjectData'
+
 
 const Projects = () => {
 
@@ -22,7 +21,7 @@ const Projects = () => {
         duration:2.5,
         delay:1,
         scrollTrigger:{
-          trigger:'.projects',
+          trigger:'.cardProject',
           toggleActions:'restart',
         }
         });
@@ -41,7 +40,7 @@ const Projects = () => {
           duration:2.5,
           delay:0.5,
           scrollTrigger:{
-            trigger:'.projects',
+            trigger:'.cardProject',
             toggleActions:'restart',
           }
         });
@@ -50,31 +49,11 @@ const Projects = () => {
   return (
     <div className='projects' id='projex'>
         <h2>Projects</h2>
-        <div className='cardProject'>
-          <a target='_blank' href="https://modern-style.vercel.app/"><img className='AnimationImg' src={ModernStyle} alt="" /></a>
-            <div className='AnimationText'>
-                <p> A make up and skinkare store in line. 
-                    To automate the sending of the product 
-                    order to Whats app</p>
-                <div className='technologies'>
-                <img src={react} alt="" />
-                <img src={css} alt="" />
-                </div>
-            </div>
-        </div>
-
-        <div className='cardProject cardreverse'>
-            <img className='AnimationImg' src={sabujchga} alt="" />
-            <div className='AnimationText'>
-                <h3>Modern Style</h3>
-                <p> A make up and skinkare store in line. 
-                    To automate the sending of the product 
-                    order to Whats app</p>
-                <div className='technologies'>
-                <img src={react} alt="" />
-                </div>
-            </div>
-        </div>
+        <>
+            {ProjectDat.map(item=>(
+              <ProjectCard key={item.id} data={item}/>
+            ))}
+        </>
     </div>
   )
 }
