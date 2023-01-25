@@ -67,12 +67,10 @@ const About = () => {
     <div className='about' id='about'>
         <h2>about me</h2>
         <div className='text_and_image Animation2'>
-        <p>Hello World ! I'm Derick Saa, mechanical engineer 
-        and full stack web developer resident in Colombia. 
-        Giving life to the most creative projects from the 
-        logic in the code and teaching others about what 
-        I know, are two of the things that I am most passionate
-        about.</p>
+        <p>¡Hola mundo ! soy Derick Saa, ingeniero 
+            mecánico y programador web full stack 
+            residente en Colombia. Dar vida a los proyectos más creativos a partir de la lógica en el código y enseñar a los demás sobre lo que se, son dos de las cosas que más me apasionan.
+        </p>
         <div className='imagenAbout Animation1'>
           {/* onMouseEnter={cambio} */}
           {/* onMouseLeave={salida}> */}

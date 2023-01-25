@@ -13,7 +13,7 @@
 }
 
 .about{
-    display: grid;    
+    display: grid;  
     justify-items: center;
     align-content: center;
     background-color: black;
@@ -21,6 +21,7 @@
 
 .text_and_image{
     display: flex;
+    gap: 1rem;
     width: 80%;
     align-items: center;
 }
