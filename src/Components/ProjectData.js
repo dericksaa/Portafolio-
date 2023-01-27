@@ -16,7 +16,7 @@ const ProjectDat = [
     {id:2, img:ModernStyle, title:'Modern Style', parraf:'Una tienda de maquillaje y skinkare en línea. Para automatizar el envío del pedido de productos a Whatsapp',
     tec:react, link:"https://modern-style.vercel.app/"},
     {id:3, img:criptos, title:'Tablero Criptos', parraf:'Un tablero para realizar conversiones entre cripto monedas utilizando la api de CoinGecko',
-    tec:react, link:"https://modern-style.vercel.app/"},
+    tec:react, link:"https://tablero-criptos.vercel.app/"},
     {id:4, img:wod, title:'Wheel Of Duck', parraf:'Un juego de ruleta bastante original, cada una de las dianas con patico es un nombre a eliminar al asar de la lista ingresada en jugadores. ',
     tec5:js,tec1:html, tec2:css, link:"https://wheel-of-duck.vercel.app/"},
     {id:5, img:sabujchga, title:'Sabujcha', parraf:'Una página estática responsiva la cual es una landing page de una tienda, desarrollada con HTML y CSS. ',
