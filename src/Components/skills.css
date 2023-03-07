@@ -52,6 +52,26 @@
     background-image: url(../Images/logogit.png);
     background-size: cover;
 }
+.skillsLogo6{
+    background-image: url(../Images/logonext.png);
+    background-size: cover;
+}
+.skillsLogo7{
+    background-image: url(../Images/logomongo.png);
+    background-size: cover;
+}
+.skillsLogo8{
+    background-image: url(../Images/logonode.png);
+    background-size: cover;
+}
+.skillsLogo9{
+    background-image: url(../Images/logoexpress.png);
+    background-size: cover;
+}
+.skillsLogo10{
+    background-image: url(../Images/logosass.png);
+    background-size: cover;
+}
 
 @media screen and (max-width:800px){
     .SkillsSection h2{

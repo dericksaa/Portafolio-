@@ -40,6 +40,21 @@ const Skills = () => {
         <div className='logoSkill skillsLogo5' 
         onMouseLeave={reduct}
         onMouseEnter={cambio}></div>
+        <div className='logoSkill skillsLogo6' 
+        onMouseLeave={reduct}
+        onMouseEnter={cambio}></div>
+        <div className='logoSkill skillsLogo7' 
+        onMouseLeave={reduct}
+        onMouseEnter={cambio}></div>
+        <div className='logoSkill skillsLogo8' 
+        onMouseLeave={reduct}
+        onMouseEnter={cambio}></div>
+        <div className='logoSkill skillsLogo9' 
+        onMouseLeave={reduct}
+        onMouseEnter={cambio}></div>
+        <div className='logoSkill skillsLogo10' 
+        onMouseLeave={reduct}
+        onMouseEnter={cambio}></div>
     </div>
     </div>
   )
